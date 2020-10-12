@@ -4,5 +4,7 @@ var cognomeUtente = prompt("Grazie " + nomeUtente + ", ora inserisci il tuo cogn
 
 var colore = prompt("Bene " + nomeUtente + " " + cognomeUtente + ", per finire inserisci il tuo colore preferito e la tua super password sarà generata!");
 
-document.getElementById("nome").innerHTML =
+
+
+document.getElementById("password").innerHTML =
 nomeUtente + cognomeUtente + colore + "20";
